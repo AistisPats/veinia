@@ -3,14 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Enemy
+  - EnemyRmoval
+  - Whip
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemies
   - Water
   - UI
+  - Player
   - 
   - 
   - 
@@ -21,8 +26,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Background
   - 
   - 
   - 
@@ -40,4 +44,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: enemyLayer
+    uniqueID: 174974909
+    locked: 0
+  - name: Foreground
+    uniqueID: 713014187
     locked: 0
